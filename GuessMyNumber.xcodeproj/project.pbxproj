@@ -54,6 +54,7 @@
 		20683E3E2B39DB2E00618D49 = {
 			isa = PBXGroup;
 			children = (
+				2080B0382B3A1373006CB969 /* README.md */,
 				20683E492B39DB2E00618D49 /* GuessMyNumber */,
 				20683E482B39DB2E00618D49 /* Products */,
 			);
@@ -72,7 +73,6 @@
 			children = (
 				2080B02E2B3A1315006CB969 /* ScreenShots */,
 				20683E4A2B39DB2E00618D49 /* AppDelegate.swift */,
-				2080B0382B3A1373006CB969 /* README.md */,
 				20683E4C2B39DB2E00618D49 /* SceneDelegate.swift */,
 				20683E4E2B39DB2E00618D49 /* ViewController.swift */,
 				20683E502B39DB2E00618D49 /* Main.storyboard */,
