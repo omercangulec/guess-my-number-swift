@@ -13,6 +13,13 @@
 		20683E522B39DB2E00618D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20683E502B39DB2E00618D49 /* Main.storyboard */; };
 		20683E542B39DB3000618D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20683E532B39DB3000618D49 /* Assets.xcassets */; };
 		20683E572B39DB3000618D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20683E552B39DB3000618D49 /* LaunchScreen.storyboard */; };
+		20683E5F2B39DBDE00618D49 /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20683E5E2B39DBDE00618D49 /* PressStart2P-Regular.ttf */; };
+		20683E622B39E18000618D49 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 20683E612B39E18000618D49 /* IQKeyboardManagerSwift */; };
+		2080B0332B3A133D006CB969 /* guessScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2080B02F2B3A133C006CB969 /* guessScreen.png */; };
+		2080B0342B3A133D006CB969 /* homeScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2080B0302B3A133D006CB969 /* homeScreen.png */; };
+		2080B0352B3A133D006CB969 /* victoryScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2080B0312B3A133D006CB969 /* victoryScreen.png */; };
+		2080B0362B3A133D006CB969 /* lostScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2080B0322B3A133D006CB969 /* lostScreen.png */; };
+		2080B0392B3A1373006CB969 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2080B0382B3A1373006CB969 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,12 @@
 		20683E532B39DB3000618D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20683E562B39DB3000618D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20683E582B39DB3000618D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20683E5E2B39DBDE00618D49 /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
+		2080B02F2B3A133C006CB969 /* guessScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessScreen.png; sourceTree = "<group>"; };
+		2080B0302B3A133D006CB969 /* homeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeScreen.png; sourceTree = "<group>"; };
+		2080B0312B3A133D006CB969 /* victoryScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = victoryScreen.png; sourceTree = "<group>"; };
+		2080B0322B3A133D006CB969 /* lostScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lostScreen.png; sourceTree = "<group>"; };
+		2080B0382B3A1373006CB969 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20683E622B39E18000618D49 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,29 @@
 		20683E492B39DB2E00618D49 /* GuessMyNumber */ = {
 			isa = PBXGroup;
 			children = (
+				2080B02E2B3A1315006CB969 /* ScreenShots */,
 				20683E4A2B39DB2E00618D49 /* AppDelegate.swift */,
+				2080B0382B3A1373006CB969 /* README.md */,
 				20683E4C2B39DB2E00618D49 /* SceneDelegate.swift */,
 				20683E4E2B39DB2E00618D49 /* ViewController.swift */,
 				20683E502B39DB2E00618D49 /* Main.storyboard */,
 				20683E532B39DB3000618D49 /* Assets.xcassets */,
 				20683E552B39DB3000618D49 /* LaunchScreen.storyboard */,
 				20683E582B39DB3000618D49 /* Info.plist */,
+				20683E5E2B39DBDE00618D49 /* PressStart2P-Regular.ttf */,
 			);
 			path = GuessMyNumber;
+			sourceTree = "<group>";
+		};
+		2080B02E2B3A1315006CB969 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				2080B02F2B3A133C006CB969 /* guessScreen.png */,
+				2080B0302B3A133D006CB969 /* homeScreen.png */,
+				2080B0322B3A133D006CB969 /* lostScreen.png */,
+				2080B0312B3A133D006CB969 /* victoryScreen.png */,
+			);
+			path = ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +111,9 @@
 			dependencies = (
 			);
 			name = GuessMyNumber;
+			packageProductDependencies = (
+				20683E612B39E18000618D49 /* IQKeyboardManagerSwift */,
+			);
 			productName = GuessMyNumber;
 			productReference = 20683E472B39DB2E00618D49 /* GuessMyNumber.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 20683E3E2B39DB2E00618D49;
+			packageReferences = (
+				20683E602B39E18000618D49 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 20683E482B39DB2E00618D49 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +159,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2080B0332B3A133D006CB969 /* guessScreen.png in Resources */,
+				20683E5F2B39DBDE00618D49 /* PressStart2P-Regular.ttf in Resources */,
 				20683E572B39DB3000618D49 /* LaunchScreen.storyboard in Resources */,
+				2080B0362B3A133D006CB969 /* lostScreen.png in Resources */,
 				20683E542B39DB3000618D49 /* Assets.xcassets in Resources */,
+				2080B0342B3A133D006CB969 /* homeScreen.png in Resources */,
+				2080B0392B3A1373006CB969 /* README.md in Resources */,
 				20683E522B39DB2E00618D49 /* Main.storyboard in Resources */,
+				2080B0352B3A133D006CB969 /* victoryScreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +403,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20683E602B39E18000618D49 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.16;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		20683E612B39E18000618D49 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20683E602B39E18000618D49 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20683E3F2B39DB2E00618D49 /* Project object */;
 }
